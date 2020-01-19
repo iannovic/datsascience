@@ -1,2 +1,2 @@
-# What's up allie
+# Data Science Repo Readme
 datascience learning repository
