@@ -1,16 +1,13 @@
 
-name: test-environment
+name: python 3.6
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.6
   - numpy
   - pip
   - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - matplotlib
-    - plotly
-    - keras
-    - tensorflow
+    - pandas=0.25.1
+    - plotly=4.4.1
+    - keras=2.3.1
+    - tensorflow=2.1.0
